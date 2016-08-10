@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18461DF9E043ACEEE63BBD1D /* Pods_testing_jwtdecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA725FDB3E0215F1132866 /* Pods_testing_jwtdecoder.framework */; };
+		EBF0608A1D52C9F60056C16D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF060891D52C9F60056C16D /* AppDelegate.swift */; };
+		EBF0608C1D52C9F60056C16D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0608B1D52C9F60056C16D /* ViewController.swift */; };
+		EBF0608F1D52C9F60056C16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF0608D1D52C9F60056C16D /* Main.storyboard */; };
+		EBF060911D52C9F60056C16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF060901D52C9F60056C16D /* Assets.xcassets */; };
+		EBF060941D52C9F60056C16D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF060921D52C9F60056C16D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74DA725FDB3E0215F1132866 /* Pods_testing_jwtdecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testing_jwtdecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B96AF5410D5C1BA0896220 /* Pods-testing-jwtdecoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing-jwtdecoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testing-jwtdecoder/Pods-testing-jwtdecoder.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD2C7B0A782DC2515949092 /* Pods-testing-jwtdecoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing-jwtdecoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-testing-jwtdecoder/Pods-testing-jwtdecoder.release.xcconfig"; sourceTree = "<group>"; };
+		EBF060861D52C9F60056C16D /* testing-jwtdecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing-jwtdecoder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF060891D52C9F60056C16D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF0608B1D52C9F60056C16D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF0608E1D52C9F60056C16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF060901D52C9F60056C16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF060931D52C9F60056C16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF060951D52C9F60056C16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF060831D52C9F60056C16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18461DF9E043ACEEE63BBD1D /* Pods_testing_jwtdecoder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1B0B807C41448129F8E7BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91B96AF5410D5C1BA0896220 /* Pods-testing-jwtdecoder.debug.xcconfig */,
+				AAD2C7B0A782DC2515949092 /* Pods-testing-jwtdecoder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6DEA4ED69F9DAEB29B41614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DA725FDB3E0215F1132866 /* Pods_testing_jwtdecoder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF0607D1D52C9F60056C16D = {
+			isa = PBXGroup;
+			children = (
+				EBF060881D52C9F60056C16D /* testing-jwtdecoder */,
+				EBF060871D52C9F60056C16D /* Products */,
+				5F1B0B807C41448129F8E7BD /* Pods */,
+				B6DEA4ED69F9DAEB29B41614 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF060871D52C9F60056C16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF060861D52C9F60056C16D /* testing-jwtdecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF060881D52C9F60056C16D /* testing-jwtdecoder */ = {
+			isa = PBXGroup;
+			children = (
+				EBF060891D52C9F60056C16D /* AppDelegate.swift */,
+				EBF0608B1D52C9F60056C16D /* ViewController.swift */,
+				EBF0608D1D52C9F60056C16D /* Main.storyboard */,
+				EBF060901D52C9F60056C16D /* Assets.xcassets */,
+				EBF060921D52C9F60056C16D /* LaunchScreen.storyboard */,
+				EBF060951D52C9F60056C16D /* Info.plist */,
+			);
+			path = "testing-jwtdecoder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF060851D52C9F60056C16D /* testing-jwtdecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF060981D52C9F60056C16D /* Build configuration list for PBXNativeTarget "testing-jwtdecoder" */;
+			buildPhases = (
+				5F72DCDAAB45C9D76CD73386 /* [CP] Check Pods Manifest.lock */,
+				EBF060821D52C9F60056C16D /* Sources */,
+				EBF060831D52C9F60056C16D /* Frameworks */,
+				EBF060841D52C9F60056C16D /* Resources */,
+				9582612E208D7947639463C1 /* [CP] Embed Pods Frameworks */,
+				A3C1FD85E1C73B4E3063BF92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "testing-jwtdecoder";
+			productName = "testing-jwtdecoder";
+			productReference = EBF060861D52C9F60056C16D /* testing-jwtdecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF0607E1D52C9F60056C16D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mengying Feng";
+				TargetAttributes = {
+					EBF060851D52C9F60056C16D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EBF060811D52C9F60056C16D /* Build configuration list for PBXProject "testing-jwtdecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF0607D1D52C9F60056C16D;
+			productRefGroup = EBF060871D52C9F60056C16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF060851D52C9F60056C16D /* testing-jwtdecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF060841D52C9F60056C16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF060941D52C9F60056C16D /* LaunchScreen.storyboard in Resources */,
+				EBF060911D52C9F60056C16D /* Assets.xcassets in Resources */,
+				EBF0608F1D52C9F60056C16D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F72DCDAAB45C9D76CD73386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9582612E208D7947639463C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testing-jwtdecoder/Pods-testing-jwtdecoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C1FD85E1C73B4E3063BF92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testing-jwtdecoder/Pods-testing-jwtdecoder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF060821D52C9F60056C16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0608C1D52C9F60056C16D /* ViewController.swift in Sources */,
+				EBF0608A1D52C9F60056C16D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF0608D1D52C9F60056C16D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF0608E1D52C9F60056C16D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF060921D52C9F60056C16D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF060931D52C9F60056C16D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF060961D52C9F60056C16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF060971D52C9F60056C16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF060991D52C9F60056C16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B96AF5410D5C1BA0896220 /* Pods-testing-jwtdecoder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "testing-jwtdecoder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.emily.testing-jwtdecoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBF0609A1D52C9F60056C16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD2C7B0A782DC2515949092 /* Pods-testing-jwtdecoder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "testing-jwtdecoder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.emily.testing-jwtdecoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF060811D52C9F60056C16D /* Build configuration list for PBXProject "testing-jwtdecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF060961D52C9F60056C16D /* Debug */,
+				EBF060971D52C9F60056C16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF060981D52C9F60056C16D /* Build configuration list for PBXNativeTarget "testing-jwtdecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF060991D52C9F60056C16D /* Debug */,
+				EBF0609A1D52C9F60056C16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF0607E1D52C9F60056C16D /* Project object */;
+}

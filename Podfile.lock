@@ -1,0 +1,12 @@
+PODS:
+  - JWTDecode (1.0.0)
+
+DEPENDENCIES:
+  - JWTDecode (~> 1.0)
+
+SPEC CHECKSUMS:
+  JWTDecode: d172edcb1607cc15aed85d58eceedcbb675a4534
+
+PODFILE CHECKSUM: acb2c4a6f454f91aeb6eb20195d5ca6894032571
+
+COCOAPODS: 1.1.0.beta.1
